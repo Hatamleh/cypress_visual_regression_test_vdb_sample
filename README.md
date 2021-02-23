@@ -1,7 +1,7 @@
 ![Cypress.io](https://img.shields.io/badge/Cypress.io-17202C?style=for-the-badge&logo=cypress&link=http://right)
 ![Javascript](https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&link=http://right&logoColor=000000)
 
-# Visual Regression Testing study
+# Visual Regression Testing With Cypress
 
 Adding a visual regression testing with Cypress is very very easy using this [plugin](https://github.com/jaredpalmer/cypress-image-snapshot)
 
