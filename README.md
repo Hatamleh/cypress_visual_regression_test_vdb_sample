@@ -38,7 +38,7 @@ addMatchImageSnapshotCommand({
 });
 ```
 
-And Thats it for the setup.
+And That's it for the setup.
 
 
 ### Way of testing:
@@ -48,8 +48,8 @@ Using this command we have two ways of testing as below:
 * Compare a snapshot for a specific element.
 * Compare a snapshot for a full page.
 
-But in both cases and when we use our command, and run the project for the first time, then Cypress will save all the snapshots inside [snapshots folder](cypress/snapshots)
-And these images will be our base images that cypress will compare to in the comming runs.
+But in both cases and when we use our command and run the project for the first time, then Cypress will save all the snapshots inside [snapshots folder](cypress/snapshots)
+And these images will be our base images that cypress will compare to in the coming runs.
 
 
 #### Compare snapshot for am element:
@@ -70,7 +70,7 @@ describe('Visual Testing using cypress-image-snapshot', () => {
  })
 
  it('perform a full signup flow', () => {
-   // You can take a snapshot for a specific elememt
+   // You can take a snapshot for a specific element
   LandingPage.SignupPanel().matchImageSnapshot("signup panel");
   LandingPage.fillSignupPanel('1017bw', "545")
   Wizard.editUageForm().matchImageSnapshot("houses")
@@ -114,7 +114,7 @@ describe("Check All the pages", () => {
 
 ## Update base snapshot: 
 
-Changing the design will require changing the base images, and for that there is a spcial script in the [package.json](package.json) to do that
+Changing the design will require changing the base images, and for that, there is a special script in the [package.json](package.json) to do that
 So simple just type 
 ```shell
 yarn update-snapshots
@@ -125,12 +125,12 @@ yarn update-snapshots
 
 * Clone this repo
 * Download all the dependencies
-* Delete the scnapshots folder
+* Delete the snapshots folder
 * Run the test as below:
 ```shell
 yarn cypress run
 ```
 
-And Thats !
+And That's!
 
 
