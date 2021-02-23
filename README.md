@@ -25,7 +25,7 @@ module.exports = (on, config) => {
 };
 ```
 
-* create a new cypress command inside [cypress/support/commands.js] as below:
+* create a new cypress command inside [cypress/support/commands.js](cypress/support/commands.js) as below:
 
 ```js
 import { addMatchImageSnapshotCommand } from 'cypress-image-snapshot/command';
