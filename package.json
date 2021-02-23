@@ -1,0 +1,16 @@
+{
+  "name": "visual-regression-test-sample",
+  "version": "1.0.0",
+  "description": "A sample project to implement visual regression test",
+  "main": "index.js",
+  "author": "Hatem",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^6.5.0",
+    "cypress-image-snapshot": "^4.0.1"
+  },
+  "scripts": {
+    "run-test": "cypress run",
+    "update-snapshots": "cypress run --env updateSnapshots=true"
+  }
+}
